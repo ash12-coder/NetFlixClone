@@ -1,0 +1,79 @@
+.b1 {
+  height: 100%;
+  width: 100%;
+  background: url("https://muii.in/__export/1600794313496/sites/muiindia/img/2020/09/22/619306-bg-full-netflix-grid-v2_desktop.jpg_554688468.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.b1 .nav1 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav1 .logo {
+  font-size: 70px;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(229, 9, 20);
+  padding: 50px;
+}
+.b1 .form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b1 .form .form1 {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 80px;
+}
+.b1 .form .form1 h1 {
+  float: left;
+  font-weight: 1000;
+  color: white;
+}
+.b1 .form .form1 input {
+  height: 40px;
+  background-color: rgb(86,77,77);
+  border: 0;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  color: white;
+  font-weight:500;
+  border-radius: 5px;
+}
+.b1 .form .form1 button{
+  height: 50px;
+  background-color: rgb(219, 0, 0);
+  color: white;
+  font-size: 15px;
+  font-weight: 1000;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  padding: 10px;
+} 
+.b1 .form .form1 .reme{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.b1 .form .form1 .reme label, p{
+  color : rgb(86,77,77);
+}
+.b1 .form .form1  span{
+  color: rgb(86,77,77);
+  font-size: 18px;
+}
+.b1 .footer{
+  background-color: rgba(0, 0, 0, 0.8);
+}

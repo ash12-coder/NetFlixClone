@@ -1,0 +1,100 @@
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+.header .intro {
+  height: 300px;
+  width: 500px;
+}
+.header .nav2 {
+  height: 10vh;
+  width: 100%;
+}
+.nav2 p {
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(229, 9, 20);
+  padding: 50px;
+}
+.header .intro {
+  padding: 50px;
+}
+.header .intro h1 {
+  color: white;
+}
+.header .intro p {
+  color: rgb(86, 77, 77);
+}
+.header .intro button {
+  height: 30px;
+  width: 100px;
+  font-weight: 1000;
+  border: 0;
+  outline: none;
+  transition: 1s;
+}
+.header .intro button:hover {
+  opacity: 0.8;
+}
+.drama {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.drama p {
+  color: rgb(86, 77, 77);
+  font-size: 20px;
+}
+.drama .drama_slider {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  overflow-x: scroll;
+}
+.drama .drama_slider::-webkit-scrollbar {
+  overflow: hidden;
+}
+.drama .drama_slider div {
+  padding: 10px;
+  transition: 2s;
+}
+.drama .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+.drama .btn .right {
+  margin-top: -210px;
+  height: 180px;
+  font-size: 50px;
+  font-weight: 1000;
+  width: 40px;
+  transform: rotate(-360deg);
+  background: transparent;
+  color: red;
+  border: 0;
+  outline: none;
+  opacity: 1;
+}
+.drama .btn .left {
+  margin-top: -210px;
+  height: 180px;
+  font-size: 50px;
+  font-weight: 1000;
+  width: 40px;
+  transform: rotate(-360deg);
+  background: transparent;
+  color: red;
+  border: 0;
+  outline: none;
+  opacity: 1;
+}
