@@ -51,10 +51,10 @@ return(
     </div>
     <div className="btn">
     <button onClick={() =>{
-      s == 0 ? sets(-3600) : sets(s + 600);
+      s == 0 ? sets(0) : sets(s + 600);
     }} className="right">&#60;</button>
     <button onClick={() =>{
-      s  <= -3600 ? sets(0) : sets(s - 600) ;
+      s  <= -3600 ? sets(-3600) : sets(s - 600) ;
     }} className="left">&#62;</button>
     </div>
   </div>

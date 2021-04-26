@@ -51,10 +51,10 @@ return(
     </div>
     <div className="btn">
     <button onClick={() =>{
-      h == 0 ? seth(-3000) : seth(h + 600);
+      h == 0 ? seth(0) : seth(h + 600);
     }} className="right">&#60;</button>
     <button onClick={() =>{
-      h  <= -3000 ? seth(0) : seth(h - 600) ;
+      h  <= -3000 ? seth(-3000) : seth(h - 600) ;
     }} className="left">&#62;</button>
     </div>
   </div>

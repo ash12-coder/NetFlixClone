@@ -51,10 +51,10 @@ return(
     </div>
     <div className="btn">
     <button onClick={() =>{
-      c == 0 ? setc(-3600) : setc(c + 600);
+      c == 0 ? setc(0) : setc(c + 600);
     }} className="right">&#60;</button>
     <button onClick={() =>{
-      c  <= -3600 ? setc(0) : setc(c - 600) ;
+      c  <= -3600 ? setc(-3600) : setc(c - 600) ;
     }} className="left">&#62;</button>
     </div>
   </div>

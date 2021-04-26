@@ -52,10 +52,10 @@ const movieclick = [Drama[movieid]];
     <div className="btn">
     <button onClick={() =>{
       
-      d == 0 ? setd(-3600) : setd(d + 600);
+      d == 0 ? setd(0) : setd(d + 600);
     }} className="right">&#60;</button>
     <button onClick={() =>{
-      d  <= -3600 ? setd(0) : setd(d - 600) ;
+      d  <= -3600 ? setd(-3600) : setd(d - 600) ;
     }} className="left">&#62;</button>
     </div>
   </div>
